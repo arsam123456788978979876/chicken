@@ -1,0 +1,38 @@
+*::after::before* {
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(https://chickchick.iran.liara.run/assets/body2-e6af8b2d.jpg);
+    height: 100%;
+}
+.wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.part1 {
+    direction: rtl;
+    background-image: url(https://chickchick.iran.liara.run/assets/body-5c5eaee9.jpg);
+}
+.useFlex-wallpaper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.useFlex-wallpaper .slice1 {
+    width: 70px;
+    height: 70px;
+}
+.useFlex-wallpaper .slice1 img {
+    width: 100%;
+}
+.useFlex-wallpaper .slice2 {
+    display: flex;
+    gap: 40px;
+}
+
+.useFlex-wallpaper .slice3 {
+    display: flex;
+    justify-content: space-between;
+}
+
